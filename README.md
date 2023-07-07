@@ -11,4 +11,4 @@ These scripts constitute a pipeline simulating MHC-II antigen processing. Given 
 3. mixmhc2pred-3.py processes the outputs for all alleles and combines them into a single *.csv file, categorising strong and weak binders.
 
 # Cross-Reactivity Scripts
-sequence-alignment-netchop-input.py take the *.csv file of strong binders and compare them against another proteome, to identify potentially cross-reactive epitopes. The match sequence length and identity level are adjustable parameters.
+sequence-alignment-netchop-input.py takes the *.csv file of strong binders and compares them against another proteome, to identify potentially cross-reactive epitopes. The match sequence length and identity level are adjustable parameters.
